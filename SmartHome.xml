@@ -4,13 +4,13 @@
 <entity name="SmartHome" class="ptolemy.actor.TypedCompositeActor">
     <property name="_createdBy" class="ptolemy.kernel.attributes.VersionAttribute" value="11.0.1">
     </property>
-    <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={0, 0, 1946, 1030}, maximized=false}">
+    <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
     </property>
-    <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1712, 884]">
+    <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 908]">
     </property>
     <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.2500000000000002">
     </property>
-    <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{439.5447236180905, 448.0877355527638}">
+    <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{437.9447236180905, 457.6877355527638}">
     </property>
     <property name="WirelessDirector" class="ptolemy.domains.wireless.kernel.WirelessDirector">
         <property name="stopTime" class="ptolemy.data.expr.Parameter" value="48">
@@ -27,7 +27,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[185.0, 430.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -112,13 +112,13 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 295.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1946, 1030}, maximized=false}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
-        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 908]">
         </property>
         <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.2500000000000009">
         </property>
-        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{447.27936557788996, 164.2490201005025}">
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{447.27936557788996, 173.8490201005025}">
         </property>
         <port name="motion" class="ptolemy.domains.wireless.kernel.WirelessIOPort">
             <property name="output"/>
@@ -201,7 +201,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[575.0, 435.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -525,13 +525,13 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 400.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1946, 1030}, maximized=false}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
-        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 908]">
         </property>
         <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.25">
         </property>
-        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{357.5917085427136, 212.05004711055273}">
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{357.5917085427136, 221.65004711055275}">
         </property>
         <port name="extTemp" class="ptolemy.domains.wireless.kernel.WirelessIOPort">
             <property name="output"/>
@@ -679,7 +679,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 505.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -1001,13 +1001,13 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[975.0, 440.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={0, 0, 1946, 1030}, maximized=false}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
-        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1712, 884]">
+        <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 908]">
         </property>
         <property name="_vergilZoomFactor" class="ptolemy.data.expr.ExpertParameter" value="1.0">
         </property>
-        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{722.5329773869347, 617.7821136934672}">
+        <property name="_vergilCenter" class="ptolemy.data.expr.ExpertParameter" value="{720.5329773869347, 629.7821136934672}">
         </property>
         <port name="time" class="ptolemy.domains.wireless.kernel.WirelessIOPort">
             <property name="input"/>
@@ -1184,9 +1184,9 @@
             </port>
         </entity>
         <entity name="Display" class="ptolemy.actor.lib.gui.Display">
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
             </property>
-            <property name="_paneSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 943]">
+            <property name="_paneSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
             <property name="_location" class="ptolemy.kernel.util.Location" value="[915.0, 550.0]">
             </property>
@@ -1266,9 +1266,9 @@
         <entity name="TemperaturePlotter" class="ptolemy.actor.lib.gui.TimedPlotter">
             <property name="legend" class="ptolemy.kernel.util.StringAttribute" value="extTemp, intTemp">
             </property>
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
             </property>
-            <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 943]">
+            <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
             <property name="_location" class="ptolemy.kernel.util.Location" value="[585.0, 325.0]">
             </property>
@@ -1280,7 +1280,7 @@
 <xLabel></xLabel>
 <yLabel></yLabel>
 <xRange min="0.0" max="24.0"/>
-<yRange min="12.364256957019778" max="25.44209930317551"/>
+<yRange min="12.464427192110266" max="25.655877151255016"/>
 </plot>?>
             </configure>
         </entity>
@@ -1324,11 +1324,11 @@
         <entity name="HumidityPlotter" class="ptolemy.actor.lib.gui.TimedPlotter">
             <property name="legend" class="ptolemy.kernel.util.StringAttribute" value="dehumidifierState, activationThreshold, deactivationThreshold, humidity">
             </property>
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
             </property>
-            <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 943]">
+            <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[850.0, 935.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[905.0, 1005.0]">
             </property>
             <configure>
 <?plotml <!DOCTYPE plot PUBLIC "-//UC Berkeley//DTD PlotML 1//EN"
@@ -1336,7 +1336,7 @@
 <plot>
 <title>HumidityPlotter</title>
 <xRange min="0.0" max="24.0"/>
-<yRange min="40.047509653497436" max="100.0"/>
+<yRange min="40.360788858546044" max="100.0"/>
 </plot>?>
             </configure>
         </entity>
@@ -1350,7 +1350,7 @@
                 <property name="displayWidth" class="ptolemy.data.expr.Parameter" value="60">
                 </property>
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 925.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[600.0, 930.0]">
             </property>
         </entity>
         <entity name="HumidityLowerLimit" class="ptolemy.actor.lib.Const">
@@ -1363,7 +1363,7 @@
                 <property name="displayWidth" class="ptolemy.data.expr.Parameter" value="60">
                 </property>
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[500.0, 975.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[480.0, 975.0]">
             </property>
         </entity>
         <relation name="relation" class="ptolemy.actor.TypedIORelation">
@@ -1430,12 +1430,6 @@
         </relation>
         <relation name="relation24" class="ptolemy.actor.TypedIORelation">
         </relation>
-        <relation name="relation25" class="ptolemy.actor.TypedIORelation">
-            <property name="width" class="ptolemy.data.expr.Parameter" value="-1">
-            </property>
-            <vertex name="vertex1" value="[700.0, 1005.0]">
-            </vertex>
-        </relation>
         <link port="time" relation="relation"/>
         <link port="commands" relation="relation8"/>
         <link port="intTemp" relation="relation5"/>
@@ -1485,12 +1479,11 @@
         <link port="HumidityPlotter.input" relation="relation19"/>
         <link port="HumidityPlotter.input" relation="relation23"/>
         <link port="HumidityPlotter.input" relation="relation24"/>
-        <link port="HumidityPlotter.input" relation="relation25"/>
+        <link port="HumidityPlotter.input" relation="relation22"/>
         <link port="HumidityUpperLimit.output" relation="relation23"/>
         <link port="HumidityUpperLimit.trigger" relation="relation21"/>
         <link port="HumidityLowerLimit.output" relation="relation24"/>
         <link port="HumidityLowerLimit.trigger" relation="relation21"/>
-        <link relation1="relation22" relation2="relation25"/>
     </entity>
     <entity name="Thermostat" class="ptolemy.domains.wireless.kernel.WirelessComposite">
         <property name="DEDirector" class="ptolemy.domains.de.kernel.DEDirector">
@@ -1499,7 +1492,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 215.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -1717,7 +1710,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 325.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -1821,7 +1814,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 435.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -1923,7 +1916,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 545.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -2031,7 +2024,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[355.0, 610.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1703, 884]">
         </property>
@@ -2383,7 +2376,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 655.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1703, 884]">
         </property>
