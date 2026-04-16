@@ -4,7 +4,7 @@
 <entity name="SmartHome" class="ptolemy.actor.TypedCompositeActor">
     <property name="_createdBy" class="ptolemy.kernel.attributes.VersionAttribute" value="11.0.1">
     </property>
-    <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+    <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1946, 1054}, maximized=false}">
     </property>
     <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 908]">
     </property>
@@ -27,7 +27,7 @@
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[185.0, 430.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1946, 1030}, maximized=false}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1708, 884]">
         </property>
@@ -418,8 +418,6 @@
             </port>
             <port name="humidity" class="ptolemy.actor.TypedIOPort">
                 <property name="input"/>
-                <property name="defaultValue" class="ptolemy.data.expr.Parameter">
-                </property>
                 <property name="_showName" class="ptolemy.data.expr.SingletonParameter" value="true">
                 </property>
             </port>
@@ -1186,7 +1184,7 @@
             </port>
         </entity>
         <entity name="Display" class="ptolemy.actor.lib.gui.Display">
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={0, 0, 1942, 1052}, maximized=false}">
             </property>
             <property name="_paneSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
@@ -1268,7 +1266,7 @@
         <entity name="TemperaturePlotter" class="ptolemy.actor.lib.gui.TimedPlotter">
             <property name="legend" class="ptolemy.kernel.util.StringAttribute" value="extTemp, intTemp">
             </property>
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={0, 0, 1942, 1052}, maximized=false}">
             </property>
             <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
@@ -1282,7 +1280,7 @@
 <xLabel></xLabel>
 <yLabel></yLabel>
 <xRange min="0.0" max="24.0"/>
-<yRange min="12.464427192110266" max="25.655877151255016"/>
+<yRange min="13.16221358050248" max="26.633400332371117"/>
 </plot>?>
             </configure>
         </entity>
@@ -1326,7 +1324,7 @@
         <entity name="HumidityPlotter" class="ptolemy.actor.lib.gui.TimedPlotter">
             <property name="legend" class="ptolemy.kernel.util.StringAttribute" value="dehumidifierState, activationThreshold, deactivationThreshold, humidity">
             </property>
-            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+            <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={0, 0, 1942, 1052}, maximized=false}">
             </property>
             <property name="_plotSize" class="ptolemy.actor.gui.SizeAttribute" value="[1920, 965]">
             </property>
@@ -1338,7 +1336,7 @@
 <plot>
 <title>HumidityPlotter</title>
 <xRange min="0.0" max="24.0"/>
-<yRange min="40.360788858546044" max="100.0"/>
+<yRange min="38.02851432121871" max="100.0"/>
 </plot>?>
             </configure>
         </entity>
@@ -1622,15 +1620,11 @@
             </port>
             <port name="intTemp" class="ptolemy.actor.TypedIOPort">
                 <property name="input"/>
-                <property name="defaultValue" class="ptolemy.data.expr.Parameter">
-                </property>
                 <property name="_showName" class="ptolemy.data.expr.SingletonParameter" value="true">
                 </property>
             </port>
             <port name="targetTemp" class="ptolemy.actor.TypedIOPort">
                 <property name="input"/>
-                <property name="defaultValue" class="ptolemy.data.expr.Parameter">
-                </property>
                 <property name="_showName" class="ptolemy.data.expr.SingletonParameter" value="true">
                 </property>
             </port>
@@ -2377,12 +2371,12 @@
     </entity>
     <entity name="Dehumidifier" class="ptolemy.domains.wireless.kernel.WirelessComposite">
         <property name="DEDirector" class="ptolemy.domains.de.kernel.DEDirector">
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[140.0, 170.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[165.0, 215.0]">
             </property>
         </property>
         <property name="_location" class="ptolemy.kernel.util.Location" value="[755.0, 655.0]">
         </property>
-        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-9, -9, 1938, 1038}, maximized=true}">
+        <property name="_windowProperties" class="ptolemy.actor.gui.WindowPropertiesAttribute" value="{bounds={-11, -11, 1942, 1030}, maximized=true}">
         </property>
         <property name="_vergilSize" class="ptolemy.actor.gui.SizeAttribute" value="[1703, 884]">
         </property>
@@ -2398,7 +2392,7 @@
             </property>
             <property name="_showName" class="ptolemy.data.expr.SingletonParameter" value="true">
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[1010.0, 315.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[960.0, 315.0]">
             </property>
         </port>
         <port name="commands" class="ptolemy.domains.wireless.kernel.WirelessIOPort">
@@ -2413,7 +2407,7 @@
             </property>
         </port>
         <entity name="RecordAssembler" class="ptolemy.actor.lib.RecordAssembler">
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[875.0, 295.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[835.0, 295.0]">
             </property>
             <port name="dehumidifierState" class="ptolemy.actor.TypedIOPort">
                 <property name="input"/>
@@ -2432,7 +2426,7 @@
                 <property name="displayHeight" class="ptolemy.data.expr.Parameter" value="10">
                 </property>
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[655.0, 315.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[440.8905792236328, 310.17970275878906]">
             </property>
             <port name="output" class="ptolemy.actor.TypedIOPort">
                 <property name="output"/>
@@ -2457,7 +2451,7 @@
             </port>
         </entity>
         <entity name="Const" class="ptolemy.actor.lib.Const">
-            <property name="value" class="ptolemy.data.expr.Parameter" value="false">
+            <property name="value" class="ptolemy.data.expr.Parameter" value="&quot;OFF&quot;">
             </property>
             <doc>Create a constant sequence.</doc>
             <property name="_icon" class="ptolemy.vergil.icon.BoxedValueIcon">
@@ -2466,26 +2460,26 @@
                 <property name="displayWidth" class="ptolemy.data.expr.Parameter" value="60">
                 </property>
             </property>
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[360.0, 385.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[555.0, 395.0]">
             </property>
         </entity>
         <entity name="SingleEvent" class="ptolemy.actor.lib.SingleEvent">
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[240.0, 385.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[435.0, 395.0]">
             </property>
         </entity>
         <entity name="Merge" class="ptolemy.domains.de.lib.Merge">
-            <property name="_location" class="ptolemy.kernel.util.Location" value="[445.0, 315.0]">
+            <property name="_location" class="ptolemy.kernel.util.Location" value="[710.0, 315.0]">
             </property>
         </entity>
         <relation name="relation4" class="ptolemy.actor.TypedIORelation">
-        </relation>
-        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
         </relation>
         <relation name="relation3" class="ptolemy.actor.TypedIORelation">
         </relation>
         <relation name="relation5" class="ptolemy.actor.TypedIORelation">
         </relation>
         <relation name="relation" class="ptolemy.actor.TypedIORelation">
+        </relation>
+        <relation name="relation2" class="ptolemy.actor.TypedIORelation">
         </relation>
         <relation name="relation6" class="ptolemy.actor.TypedIORelation">
         </relation>
@@ -2495,15 +2489,15 @@
         <link port="commands" relation="relation3"/>
         <link port="RecordAssembler.output" relation="relation4"/>
         <link port="RecordAssembler.dehumidifierState" relation="relation2"/>
-        <link port="ComputeDehumidifierState.output" relation="relation2"/>
+        <link port="ComputeDehumidifierState.output" relation="relation6"/>
         <link port="ComputeDehumidifierState.dehumidifierOn" relation="relation"/>
         <link port="ExtractDehumidifier.input" relation="relation3"/>
-        <link port="ExtractDehumidifier.dehumidifierOn" relation="relation6"/>
+        <link port="ExtractDehumidifier.dehumidifierOn" relation="relation"/>
         <link port="Const.output" relation="relation7"/>
         <link port="Const.trigger" relation="relation5"/>
         <link port="SingleEvent.output" relation="relation5"/>
         <link port="Merge.input" relation="relation6"/>
         <link port="Merge.input" relation="relation7"/>
-        <link port="Merge.output" relation="relation"/>
+        <link port="Merge.output" relation="relation2"/>
     </entity>
 </entity>
